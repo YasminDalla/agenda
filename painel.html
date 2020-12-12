@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de gerenciamento de contatos</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center" id="formulario"></div>
+        <div class="row">
+            <div class="col-12">
+                <div class="card mt-3">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-12 col-sm-8 col-md-10">
+                                <h4 class="text-danger">Gerenciamento de Contatos</h4>
+                            </div>
+                            <div class="col-12 col-sm-4 col-md-2">
+                                <a href="src/contato/visao/form-contato.html" class="btn btn-outline-primary btn-block btn-new">+ NOVO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th class="text-center">ID</th>
+                                        <th>NOME</th>
+                                        <th class="text-center">TELEFONE</th>
+                                        <th class="text-center">CELULAR</th>
+                                        <th class="text-center">AÇÕES</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">1</td>
+                                        <td>TEST DE CADASTRO</td>
+                                        <td class="text-center">(14)35231217</td>
+                                        <td class="text-center">(14)99734-2167</td>
+                                        <td>
+                                            <button class="btn btn-info btn-sm">Vizualizar</button>
+                                            <button class="btn btn-primary btn-sm">Editar</button>
+                                            <button class="btn btn-danger btn-sm">Excluir</button>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">2</td>
+                                        <td>TEST DE CADASTRO</td>
+                                        <td class="text-center">(14)35231217</td>
+                                        <td class="text-center">(14)99734-2167</td>
+                                        <td>
+                                            <button class="btn btn-info btn-sm">Vizualizar</button>
+                                            <button class="btn btn-primary btn-sm">Editar</button>
+                                            <button class="btn btn-danger btn-sm">Excluir</button>
+
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+
+
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer text-center text-white bg-dark">
+                        Todos os direitos reservados a YasminDallarti.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/btns-control.js"></script>
+
+</body>
+
+</html>
