@@ -4,7 +4,7 @@
             Cadastro de contatos
         </h4>
     </div>
-    <form action="">
+    <form id="add-contato">
         <div class="form-group">
             <label>Nome do contato</label>
             <input type="text" name="NOME" id="NOME" class="form-control">
@@ -16,14 +16,14 @@
             </div>
 
             <div class="col-12 col-sm-8 col-md-9">
-                <label>LOGRADOURO</label>
+                <label>Logradouro</label>
                 <input type="text" name="LOGRADOURO" id="LOGRADOURO" class="form-control">
             </div>
         </div>
         <div class="form-group row">
             <div class="col-12 col-sm-4 col-md-3">
                 <label>Número</label>
-                <input type="text" name="NROCASA" id="NROCASA" class="form-control">
+                <input type="text" name="NCASA" id="NCASA" class="form-control">
             </div>
             <div class="col-12 col-sm-8 col-md-9">
                 <label>Bairro</label>
@@ -32,7 +32,7 @@
         </div>
         <div class="form-group row">
             <div class="col-12 col-sm-5 col-md-4">
-                <label>Estado</label>
+                <label>Cidade</label>
                 <input type="text" name="CIDADE" id="CIDADE" class="form-control">
             </div>
             <div class="col-12 col-sm-7 col-md-8">
@@ -46,10 +46,13 @@
                 <input type="tel" name="TELEFONE" id="TELEFONE" class="form-control">
             </div>
             <div class="col-12 col-sm-6 col-md-6">
-                <label>CELULAR</label>
+                <label>Celular</label>
                 <input type="tel" name="CELULAR" id="CELULAR" class="form-control">
             </div>
         </div>
+
+        <input type="hidden" name='ID' id='ID' value=''>
+
         <div class="form-group row justify-content-end">
             <div class="col-12 col-sm-6 col-md-4">
                 <button class="btn btn-outline-success btn-block btn-save">Cadastrar</button>
@@ -58,3 +61,5 @@
 
     </form>
 </div>
+
+<script src="src/contato/controle/save-contato.js"></script>
